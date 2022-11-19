@@ -1,0 +1,43 @@
+.app {
+    background: #f1f1f1ee;
+    display: grid;  
+    font-family: Arial, Helvetica, sans-serif;
+    grid-template-areas: 
+        "cabecalho"
+        "conteudo"/**/
+        "rodape"    
+    ;
+    grid-template-columns: auto;/*define as colunas */
+    grid-template-rows: 50px auto auto;/*define o tamanho de cada conteudo  descrito no templeit*/
+}
+
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    grid-area: cabecalho;
+    padding: 0 2rem;
+    
+
+}
+.menu__link:hover,.menu__link.ativo{
+    border-bottom: 2px solid #280dbe;
+
+}
+.menu__link{
+    padding: 0 2rem;
+    color: black;
+    
+}
+.conteudo {
+    grid-area: conteudo;
+    padding: 0 1rem;
+    
+}
+
+.rodape {
+    background: #beb6b6;
+    text-align: center;
+    grid-area: rodape;
+    padding: 1em;
+}
