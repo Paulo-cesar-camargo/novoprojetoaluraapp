@@ -1,4 +1,4 @@
-@media screen and (min-width:0px){ 
+@media screen and (max-width:0px){ 
     .populares__conteudo{
         
         display: grid;
